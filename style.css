@@ -1,0 +1,191 @@
+body {
+    font-family: 'League Spartan', sans-serif; 
+}
+.menu {
+    height: 82px;
+    background-color: #0C0D2E;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    right: 0px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    z-index: 100;
+    
+}
+.menu img {
+    height: 54px;
+    padding-right: 1019px;
+}
+.menu .ml {
+    margin-right: 43px;
+    border: white solid 1px;
+    padding: 10px 20px 10px 20px;
+    border-radius: 20px;
+}
+.menu a  {
+    margin-left: 24px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}
+.menu a:hover  {
+    text-decoration: none;
+    color: #189CE8;
+    font-size: 25px;
+}
+.first {
+    height: 450px;
+    background-color: #010225;
+    color: white;
+    width: 1769px;
+    margin-left: -8px;
+    margin-top: 80px;
+    padding-left: 86px;
+    padding-top: 192px;
+}
+div.first img.phone {
+    position: absolute;
+    z-index: 1;
+    top: 32px;
+    right: 0px;
+    height: 669px;
+}
+.first p {
+    font-size: 12px;
+    margin-left: 50px;
+}
+.fh1 {
+    font-size: 64px;
+    margin-left: 50px;
+}
+.first .others{
+    margin-left: 44px;
+}
+.first .othersl {
+    margin-left: 10px;
+}
+.second {
+    height: 744px;
+    width: 1855px;
+    margin-left: -8px;
+    background-color: #0C0D2E;
+    color: white;
+    margin-top: -21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.second .cards {
+    display: flex;
+    width: 1267.22px;
+    height: 170px;
+    justify-content: space-evenly;
+}
+.second .cards .card {
+    height: 170px;
+    width: 358px;
+    display: flex;
+    height: 170px;
+    width: 358px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second .cards .card a {
+    text-decoration: none;
+    color: #159BE8;
+}
+.third {
+    height: 1247px;
+    background-color: #0C0D2E;
+    width: 1855px;
+    margin-left: -8px;
+    margin-top: -21px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.third .cardsLeft {
+    height: 555px;
+    display: flex;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    right: 380px;
+    justify-content: space-between;
+    top: 260px;
+}
+.third .cardL {
+    width: 339px;
+    height: 102px;
+}
+.third img {
+    position: relative;
+    bottom: 300px;
+}
+.third .cardR {
+    width: 339px;
+    height: 102px;
+    margin-top: 70px;
+}
+.third .cardsRight {
+    height: 0px;
+    display: flex;
+    position: relative;
+    color: white;
+    flex-direction: column;
+    left: 400px;
+    justify-content: space-between;
+    bottom: 943px;
+}
+.last {
+    height: 744px;
+    width: 1855px;
+    margin-left: -8px;
+    background-color: #010225;
+    color: white;
+    margin-top: -21px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding-top: 60px;
+    
+}
+.last .logo {
+    margin-bottom: 20px;
+}
+.last .sb {
+    margin-bottom: 20px;
+}
+.last .others {
+    margin-bottom: 35px;
+}
+.last .ent {
+    margin-bottom: 10px;
+}
+
+.last .email {
+    background-color: #0C0D2E;
+    border: 2px solid #282B53;
+    border-radius: 4px;
+    height: 29px;
+    width: 400px;
+    color: white;
+    margin-bottom: 52px;
+}
+.last .enter {
+    border: 1px solid #159BE8;
+    background-color: #159BE8;
+    padding: 15px 30px 15px 30px;
+    border-radius: 34px;
+    text-decoration: none;
+    color: white;
+}
+.last .others {
+}
